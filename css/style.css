@@ -23,6 +23,15 @@ h1 {
   line-height: 1.5;
 }
 
+h3 {
+  /* font-size: 3.5rem; */
+  font-weight: bold;
+  /* line-height: 1.5; */
+}
+
+p {
+  font-size: 1.2rem;
+}
 /* Nav bar */
 
 .navbar {
@@ -53,3 +62,24 @@ h1 {
   transform: rotate(25deg);
   width: 60%;
 }
+
+/* Features Section */
+
+#features {
+  padding: 7% 15%;
+}
+
+.feature-box {
+  padding: 5%;
+  text-align: center;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+

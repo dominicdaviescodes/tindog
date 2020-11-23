@@ -127,3 +127,42 @@ p {
   width: 15%;
   margin: 20px 20px 50px;
 }
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.hide-line {
+  visibility: hidden;
+}
+
+.card {
+  min-width: 220px;
+}
+
+@media (max-width: 1200px) {
+  #bootstrap-override-1 {
+    width: 100%;
+  }
+
+  #bootstrap-override-2 {
+    width: 100%;
+  }
+
+  #bootstrap-override-3 {
+    margin: auto;
+    width: 50%;
+  }
+}
+
+@media (max-width: 998px) {
+  #bootstrap-override-3 {
+    /* margin: auto; */
+    width: 100%;
+  }
+}

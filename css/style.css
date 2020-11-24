@@ -9,7 +9,8 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15%;
+  /* top L/R bottom */
+  padding: 3% 15% 7%;
 }
 
 #title {
@@ -37,6 +38,10 @@ h3 {
 
 p {
   font-size: 1.2rem;
+}
+
+#title {
+  height: 80vh;
 }
 /* Nav bar */
 
@@ -67,12 +72,18 @@ p {
 .title-image {
   transform: rotate(25deg);
   width: 60%;
+  /* z-index: -1; */
+  position: absolute;
+  right: 30%;
 }
 
 /* Features Section */
 
 #features {
+  background-color: #fff;
   padding: 7% 15%;
+  position: relative;
+  /* z-index: 1; */
 }
 
 .feature-box {
@@ -95,6 +106,12 @@ p {
   }
   .btn {
     width: 60%;
+  }
+}
+
+@media (max-width: 768px) {
+  .iphone6 {
+    visibility: hidden;
   }
 }
 

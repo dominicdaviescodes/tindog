@@ -156,6 +156,25 @@ p {
   text-align: center;
 }
 
+#footer {
+  background-color: #fff;
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.social-icons {
+  margin-bottom: 30px;
+}
+
+.social-icon {
+  color: #000;
+  margin-left: 20px;
+}
+
+.envelope {
+  margin-right: 20px;
+}
+
 /* Media Queries */
 
 @media (max-width: 1200px) {
@@ -197,7 +216,6 @@ p {
   }
 }
 @media (max-width: 568px) {
-
   #cta h2 {
     font-size: 2rem;
     padding-bottom: 30px;

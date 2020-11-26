@@ -1,24 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;900&family=Ubuntu&display=swap');
 
-/* 
-font-family: 'Ubuntu', sans-serif;
-*/
 html {
   scroll-behavior: smooth;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
-}
-
-.container-fluid {
-  /* top L/R bottom */
-  padding: 3% 15% 7%;
-}
-
-#title {
-  background: #ff4c68;
-  color: #fff;
 }
 
 h1 {
@@ -43,9 +30,11 @@ p {
   font-size: 1.2rem;
 }
 
-#title {
-  height: 80vh;
+.container-fluid {
+  /* top L/R bottom */
+  padding: 3% 15% 7%;
 }
+
 /* Nav bar */
 
 .navbar {
@@ -66,6 +55,14 @@ p {
   /* border: 1px solid white; */
   color: #fff !important;
   font-size: 1.2rem;
+}
+
+/* Showcase */
+
+#title {
+  background: #ff4c68;
+  color: #fff;
+  height: 80vh;
 }
 
 .download-button {
@@ -133,6 +130,8 @@ p {
   margin: 20px 20px 50px;
 }
 
+/* Pricing Section */
+
 #pricing {
   padding: 100px;
   text-align: center;
@@ -164,6 +163,8 @@ p {
   font-weight: 900;
   line-height: 1.5;
 }
+
+/* Footer Section */
 
 #footer {
   background-color: #fff;
@@ -201,6 +202,9 @@ p {
     transform: rotate(0);
     width: 80%;
   }
+
+  /* Media Queries --- control btn widths in pricing columns and CTA */
+
   #bootstrap-override-1 {
     width: 100%;
   }
@@ -213,6 +217,7 @@ p {
     margin: auto;
     width: 50%;
   }
+
   #cta .btn {
     width: 45%;
   }
@@ -224,9 +229,10 @@ p {
     width: 100%;
   }
 }
+
 @media (max-width: 568px) {
-  #cta h2 {
-    font-size: 2rem;
+  #cta h3 {
+    font-size: 2.5rem;
     padding-bottom: 30px;
     /* margin-bottom: 5%; */
   }

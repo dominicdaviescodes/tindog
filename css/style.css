@@ -3,6 +3,9 @@
 /* 
 font-family: 'Ubuntu', sans-serif;
 */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   font-family: 'Montserrat', sans-serif;
@@ -156,6 +159,12 @@ p {
   text-align: center;
 }
 
+.cta--heading {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
 #footer {
   background-color: #fff;
   padding: 7% 15%;
@@ -168,7 +177,7 @@ p {
 
 .social-icon {
   color: #000;
-  margin-left: 20px;
+  margin: 20px 10px;
 }
 
 .envelope {

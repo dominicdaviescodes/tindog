@@ -44,10 +44,31 @@ p {
   text-align: left;
 }
 
+/* Containers */
 .container-fluid {
-  /* top L/R bottom */
-  /* padding: 3% 15% 7%; */
   padding: 7% 15%;
+}
+
+#title .container-fluid {
+  /* top L/R bottom */
+  padding: 3% 15% 7%;
+}
+
+#footer .container-fluid {
+  /* top L/R bottom */
+  padding: 3% 15% 3%;
+}
+
+/* Sections */
+
+.section-color {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.section-white {
+  background-color: #fff;
+  color: #000;
 }
 
 /* Nav bar */
@@ -74,22 +95,6 @@ p {
 
 /* Showcase */
 
-#title {
-  background: #ff4c68;
-  color: #fff;
-  /* height: 80vh; */
-}
-
-#title .container-fluid {
-  /* top L/R bottom */
-  padding: 3% 15% 7%;
-}
-
-#footer .container-fluid {
-  /* top L/R bottom */
-  padding: 3% 15% 3%;
-}
-
 .download-button {
   margin: 3% 3% 2% 0;
 }
@@ -105,7 +110,6 @@ p {
 /* Features Section */
 
 #features {
-  background-color: #fff;
   position: relative;
   /* z-index: 1; */
 }
@@ -127,8 +131,6 @@ p {
 
 #testimonials {
   background-color: #ef8172;
-  color: #fff;
-  /* padding: 7% 15%; */
 }
 
 .testimonial-image {
@@ -141,7 +143,6 @@ p {
   background-color: #ef8172;
   padding-bottom: 3%;
 }
-
 .press-logo {
   width: 15%;
   margin: 20px 20px 50px;
@@ -165,18 +166,7 @@ p {
   min-width: 220px;
 }
 
-/* CTA */
-
-#cta {
-  background-color: #ff4c68;
-  color: #fff;
-}
-
 /* Footer Section */
-
-#footer {
-  background-color: #fff;
-}
 
 .social-icon {
   color: #000;

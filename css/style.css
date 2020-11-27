@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
 
 h1,
@@ -37,6 +38,10 @@ p {
 
 .feature-card-heading {
   font-size: 1.5rem;
+}
+
+.showcase-heading {
+  text-align: left;
 }
 
 .container-fluid {
@@ -71,7 +76,7 @@ p {
 #title {
   background: #ff4c68;
   color: #fff;
-  height: 80vh;
+  /* height: 80vh; */
 }
 
 .download-button {
@@ -97,7 +102,6 @@ p {
 
 .feature-box {
   padding: 5%;
-  text-align: center;
 }
 
 .icon {
@@ -115,7 +119,6 @@ p {
   background-color: #ef8172;
   color: #fff;
   /* padding: 7% 15%; */
-  text-align: center;
 }
 
 .testimonial-image {
@@ -130,7 +133,6 @@ p {
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -143,7 +145,6 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
@@ -164,7 +165,6 @@ p {
   background-color: #ff4c68;
   color: #fff;
   padding: 7% 15%;
-  text-align: center;
 }
 
 /* Footer Section */
@@ -172,7 +172,6 @@ p {
 #footer {
   background-color: #fff;
   padding: 7% 15%;
-  text-align: center;
 }
 
 .social-icons {
@@ -191,9 +190,6 @@ p {
 /* Media Queries */
 
 @media (max-width: 1200px) {
-  h1 {
-    font-size: 2.5rem;
-  }
   .btn {
     width: 60%;
   }
@@ -239,6 +235,9 @@ p {
     font-size: 2.5rem;
     padding-bottom: 30px;
     /* margin-bottom: 5%; */
+  }
+  .title-image {
+    visibility: hidden;
   }
 }
 

@@ -8,26 +8,35 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-h1 {
+h1,
+h2,
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Headings */
+
+.showcase-heading,
+.cta-heading {
   font-size: 3.5rem;
   font-weight: 900;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: 'Montserrat', sans-serif;
+.price-text,
+.testimonial-text,
+.section-heading {
   font-size: 3rem;
-  font-weight: bold;
   line-height: 1.5;
 }
-h3 {
-  /* font-size: 3.5rem; */
-  font-weight: bold;
-  /* line-height: 1.5; */
-}
 
-p {
-  font-size: 1.2rem;
+.feature-card-heading {
+  font-size: 1.5rem;
 }
 
 .container-fluid {
@@ -158,12 +167,6 @@ p {
   text-align: center;
 }
 
-.cta--heading {
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
-}
-
 /* Footer Section */
 
 #footer {
@@ -203,7 +206,11 @@ p {
     width: 80%;
   }
 
-  /* Media Queries --- control btn widths in pricing columns and CTA */
+  /* Media Queries --- 
+  
+  control btn widths in pricing columns and CTA
+  
+  */
 
   #bootstrap-override-1 {
     width: 100%;
@@ -219,7 +226,7 @@ p {
   }
 
   #cta .btn {
-    width: 45%;
+    width: 60%;
   }
 }
 
@@ -228,15 +235,15 @@ p {
     /* margin: auto; */
     width: 100%;
   }
-}
-
-@media (max-width: 568px) {
-  #cta h3 {
+  .cta-heading {
     font-size: 2.5rem;
     padding-bottom: 30px;
     /* margin-bottom: 5%; */
   }
+}
+
+@media (max-width: 768px) {
   #cta .btn {
-    width: 100%;
+    width: 60%;
   }
 }
